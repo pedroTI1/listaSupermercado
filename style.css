@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: #5a71bb;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+header h2{
+    color: white;
+    font-variant: small-caps;
+    
+}
+
+
+.main-container{
+    display: flex;
+    margin:20px 0;
+    padding:0 20px;
+}
+
+.main-container input[type=text]{
+    flex:1;
+    height:40px;
+    padding-left: 20px;
+}
+
+.main-container input[type=submit]{
+    cursor: pointer;
+}
+
+
+.lista-produtos-single{
+    display: flex;
+    margin: 10px 10px;
+    padding: 0 20px;
+    border-bottom:1px solid #ccc;
+    margin-top: 20px;
+}
+
+.lista-produtos-single h3{
+    flex: 1;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+
+.lista-produtos-single p{ 
+   text-align: right;
+   background-color: #5a71bb;
+   padding:8px 10px;
+   margin: 10px;
+   border-radius: 20px;
+   color: white;
+   font-weight: bold;
+   font-size: 17px;
+}
+
+.valor-final{
+    
+    padding: 20px;
+}
+
+
+
